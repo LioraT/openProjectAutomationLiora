@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-1N9L6QD",
+    "children" : [ {
+      "name" : "29076-MainThread",
+      "children" : [ {
+        "name" : "test_addProject",
+        "uid" : "d44e014819186b0b",
+        "parentUid" : "5772b0e2da2a918d6b1f5c92124d4f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625318420599,
+          "stop" : 1625318430760,
+          "duration" : 10161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5772b0e2da2a918d6b1f5c92124d4f75"
+    }, {
+      "name" : "29460-MainThread",
+      "children" : [ {
+        "name" : "test_addTask",
+        "uid" : "5b25b22e5ec61f1f",
+        "parentUid" : "46ac95562f45bb19cbb6895733c47b42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625318760024,
+          "stop" : 1625318772589,
+          "duration" : 12565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46ac95562f45bb19cbb6895733c47b42"
+    } ],
+    "uid" : "36f956d6be9e295bef3681544730de38"
+  } ]
+}

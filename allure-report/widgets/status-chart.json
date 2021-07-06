@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d44e014819186b0b",
+  "name" : "test_addProject",
+  "time" : {
+    "start" : 1625318420599,
+    "stop" : 1625318430760,
+    "duration" : 10161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b25b22e5ec61f1f",
+  "name" : "test_addTask",
+  "time" : {
+    "start" : 1625318760024,
+    "stop" : 1625318772589,
+    "duration" : 12565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
