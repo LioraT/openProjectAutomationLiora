@@ -9,8 +9,8 @@ from allure_commons._allure import step
 
 @step("api test - Update project")
 def test_002_api_update_project():
-    updated_project_description = "Updated Project description:" + DataGenerator.random_generator(3)
-    # updated_project_description = "This is the first test project"
+    # updated_project_description = "Updated Project description:" + DataGenerator.random_generator(3)
+    updated_project_description = "This is the first test project"
 
     projects_api = ProjectsApi(config['base_url'])
     project_id = config['project_id']

@@ -23,14 +23,6 @@ class RestClient:
             f"\"POST\": {url}\nBad Response: {response}"
         return response
 
-    def put(self, path, basic_auth, content_type, payload, expected_response_status_code: int = HTTPStatus.OK):
-        url = self.base_url + path
-        request_body = json.dumps(payload)
-        response = requests.put(url, data=request_body, auth=basic_auth, headers=content_type)
-        assert response.status_code == expected_response_status_code, \
-            f"\"PUT\": {url}\nBad Response: {response}"
-        return response
-
     def patch(self, path, basic_auth, content_type, payload, expected_response_status_code: int = HTTPStatus.OK):
         url = self.base_url + path
         request_body = json.dumps(payload)
