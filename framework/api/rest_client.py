@@ -22,7 +22,7 @@ class RestClient:
         assert response.status_code == expected_response_status_code, \
             f"\"PATCH\": {url}\nBad Response: {response}"
         return response
-    
+
     def post(self, path, basic_auth, content_type, payload, expected_response_status_code: int = HTTPStatus.OK):
         url = self.base_url + path
         request_body = json.dumps(payload)
